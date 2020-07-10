@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+       <meta charset="utf-8">
+       <title>Login</title>
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+       <link href="styleloginout.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+       <div class="login">
+              <h1>Create account</h1>
+              <form method="post" class="form-horizontal">
+
+                     <label for="username">
+                            <i class="fas fa-user"></i>
+                     </label>
+                     <input type="text" name="username" placeholder="Username" id="username" required>
+                     <label for="Email">
+                            <i class="fas fa-envelope-open-text"></i>
+                     </label>
+                     <input type="text" name="email" placeholder="Enter email" id="email" required>
+                     <label for="password">
+                            <i class="fas fa-lock"></i>
+                     </label>
+
+                     <input type="password" name="password" placeholder="Password" id="password" required>
+
+
+                     <!-- <label for="txt_role">
+                     <i class="fa fa-users" aria-hidden="true"></i>
+                     </label>
+                    
+                            <select name="txt_role">
+                                   <option value="admin">Admin</option>
+                                   <option value="employee">Employee</option>
+                                   <option value="user">User</option>
+
+                            </select> -->
+                     
+
+                     
+                                   <input type="submit" name="btn_register" class="btn btn-primary " value="Register">
+                            
+
+                     <div class="form-group">
+                            <div class="col-sm-offset-3 col-sm-45 m-t-15">
+                                   You have a account register here? <a href="login.php">
+                                          <p class="text-info" style="text-align:center" > Go into account</p>
+                                   </a>
+                            </div>
+                     </div>
+
+              </form>
+       </div>
+</body>
+</html>

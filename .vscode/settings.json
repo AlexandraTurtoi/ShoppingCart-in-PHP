@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": true,
+            "connectionTimeout": 60,
+            "database": "biblioteca",
+            "dialect": "MariaDB",
+            "name": "MariaDB",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
+}

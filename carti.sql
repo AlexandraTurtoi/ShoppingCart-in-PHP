@@ -1,0 +1,1 @@
+SELECT c.titlu,a.nume,a.prenume,c.NumarPagini,c.categorie FROM  biblioteca.carte c,biblioteca.autor a WHERE a.coda=c.coda;

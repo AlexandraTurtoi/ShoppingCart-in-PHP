@@ -1,0 +1,30 @@
+
+	<form method="post" action="admin_users.php" >
+        
+        
+        <div class="input-group">
+			<label>Username</label>
+			<input type="text" name="username" value="">
+		</div>
+	
+        <div class="input-group">
+			<label>Role</label>
+			<input type="text" name="role" value="">
+        </div>
+        
+		<div class="input-group" align=center>
+            <button class="btn_update" type="submit" name="update">Update roles</button>
+            <button class="btn_delete" type="submit" name="delete">Delete</button>
+		</div>
+
+	</form>
+	<form method="post" action="" >
+		
+		<div class="form-inline">
+			<label>Search users:</label>
+			<input type="text" name="keyboard" class="form-control">
+			<button class="btn-success"name = "search" >Search</button>
+		</div>
+	 </form>
+	 <?php include "search.php" ?>
+    
